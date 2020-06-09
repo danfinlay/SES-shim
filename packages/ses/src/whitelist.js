@@ -1546,6 +1546,7 @@ export default {
     evaluate: fn,
     globalThis: getter,
     import: asyncFn,
+    load: asyncFn,
     importNow: fn,
     module: fn,
   },
